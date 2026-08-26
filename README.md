@@ -101,4 +101,4 @@ I work with **SQL, ETL, data warehousing, and data modeling**, with an emphasis 
 
 I'm building my portfolio around the skills that matter in real data environments: writing maintainable SQL, designing clear data models, and creating reliable data flows from source to consumption.
 
-[![LinkedIn](www.linkedin.com/in/jemmahwang)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://www.linkedin.com/in/jemmahwang)
