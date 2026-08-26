@@ -93,7 +93,7 @@ data-warehouse-project/
 
 This project is licensed under the [MIT License].(LICENSE). You are free to use,modify, and share this project with proper attribution. 
 
-## About me 
+## ✨​ About me 
   
 I'm **Emma Hwang**, an aspiring **Data Engineer** with a focus on building reliable data pipelines and well-structured data systems.
 
@@ -101,3 +101,4 @@ I work with **SQL, ETL, data warehousing, and data modeling**, with an emphasis 
 
 I'm building my portfolio around the skills that matter in real data environments: writing maintainable SQL, designing clear data models, and creating reliable data flows from source to consumption.
 
+[![LinkedIn](www.linkedin.com/in/jemmahwang)
