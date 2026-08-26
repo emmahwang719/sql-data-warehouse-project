@@ -19,26 +19,26 @@ This document outlines the naming conventions used for schemas, tables, columns,
 
 ### **Bronze Rules**
   - All names must start with the source system name, and table names must match their original names without renaming.
-  - **'<sourcesystem>_<entity>'**
-    - '<sourcesystem>' : Name of the source system (e.g., 'crm', 'erp')
-    - '<entity>': Exact table name from the source system.
-    - Example: 'crm_customer_info -> Customer information from the CRM system.
+  - **Naming Convention:** `<source>_<table>`
+    - `<source>`: Name of the source system (e.g., `crm`, `erp`).
+    - `<table>`: Exact table name from the source system.
+    - Example: `crm_customer_info` → Customer information from the CRM system.
    
 ### **Silver Rules**  
   - All names must start with the source system name, and table names must match their original names without renaming.
-  - **'<sourcesystem>_<entity>'**
-    - '<sourcesystem>' : Name of the source system (e.g., 'crm', 'erp')
-    - '<entity>': Exact table name from the source system.
-    - Example: 'crm_customer_info -> Customer information from the CRM system.
+  - **Naming Convention:** `<source>_<table>`
+    - `<source>`: Name of the source system (e.g., `crm`, `erp`).
+    - `<table>`: Exact table name from the source system.
+    - Example: `crm_customer_info` → Cleaned customer information from the CRM system.
 
 ### **Gold Rules**  
-  - All names must meaningful, business-aligned names for tables, starting with the category prefix.
-  - **'<category>_<entity>'**
-    - '<category>' : Describes the role of the table, such as 'dim' (dimension) or 'fact' (fact table). 
-    - '<entity>': Descriptive name of the table, aligned with the business domain (e.g., 'customers', 'products', 'sales').
+  - All table names must use meaningful, business-aligned names starting with the category prefix.
+  - **Naming Convention:** `<category>_<table>`
+    - `<category>`: Describes the role of the table, such as `dim` (dimension) or `fact` (fact table).
+    - `<table>`: Descriptive name of the table aligned with the business domain (e.g., `customers`, `products`, `sales`).
     - Examples:
-        - 'dim_customers' -> Dimension table for customer data.
-        - 'fact_sales' -> Fact table containing sales transactions.
+      - `dim_customers` → Dimension table for customer data.
+      - `fact_sales` → Fact table containing sales transactions.
      
 #### **Glossary of Category Patterns**
 
