@@ -18,9 +18,9 @@ This document outlines the naming conventions used for schemas, tables, columns,
 
 ## **General Principles**
 
---**Naming Conventions**: Use snake_case, with lowercase and underscores ('_') to separate words. 
---**Language**: Use English for all names.
---**Avoid Reserved Words**: Do not use SQL reserved as object names. 
+- **Naming Conventions**: Use snake_case, with lowercase and underscores ('_') to separate words.
+- **Language**: Use English for all names.
+- **Avoid Reserved Words**: Do not use SQL reserved as object names. 
 
 ## **Table Naming Conventions**
 
